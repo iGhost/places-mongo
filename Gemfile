@@ -13,6 +13,10 @@ gem 'jbuilder', '~> 2.7'
 # gem 'redis', '~> 4.0'
 # gem 'bcrypt', '~> 3.1.7'
 
+gem 'activeadmin-mongoid', '1.0.0', github: 'activeadmin/activeadmin-mongoid'
+gem 'ransack-mongoid', github: 'activerecord-hackery/ransack-mongoid'
+gem 'devise'
+
 gem 'bootsnap', '>= 1.4.2', require: false
 
 group :development, :test do
